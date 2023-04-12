@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('ggo.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contianer {
+    margin: 10px auto;
+    width: 400px;
+    height: 350px;
+}
+
+.heading {
+    font-size: 2.1rem;
+    background: darkgrey;
+    color: blueviolet;
+    text-align: center;
+    padding: 5px;
+    margin-top: 150px;
+}
+
+.content {
+    background: white;
+    padding: 20px;
+
+}
+
+.text-content {
+    font-family: Arial;
+    font-size: 1.2rem;
+}
+
+.author {
+    font-size: 1.0rem;
+    text-align: right;
+    color: red;
+    margin: 10px;
+}
+
+.btn {
+    display: block;
+    margin: 20px auto;
+    background: black;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.btn:active{
+    border: 2px solid black;
+    background: none;
+    color: black;
+}
